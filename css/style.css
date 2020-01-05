@@ -1,0 +1,40 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  border: 2px solid grey;
+  margin: 50px auto;
+}
+
+.col {
+  display: flex;
+}
+.white_square {
+  width: 100px;
+  height: 100px;
+  background: white;
+}
+.black_square {
+  height: 100px;
+  width: 100px;
+  background: black;
+  box-sizing: border-box;
+}
+
+.checker {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.black_checker {
+  background-color: rgb(133, 52, 52);
+}
+
+.white_checker {
+  background: rgb(72, 206, 132);
+}
